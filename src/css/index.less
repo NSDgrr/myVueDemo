@@ -1,0 +1,316 @@
+    .slide {
+        width: 100%;
+        height: 570px;
+        overflow: hidden;
+        position: relative;
+        .slideshow {
+            width: 100%;
+            height: 570px;
+          }
+          li {
+              width: 100%;
+            position: absolute;
+          }
+          img {
+            width: 100%;
+            height: 570px;
+          }
+          .bullet {
+            position: absolute;
+            width: 100%;
+            bottom: 10px;
+            margin: 0 auto;
+            z-index: 10;
+            text-align: center;
+          }
+          .bullet span {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: white;
+            display: inline-block;
+            margin-right: 10px;
+          }
+          .active {
+            width: 19px !important;
+            border-radius: 4px !important;
+            background: #00c896 !important;
+          }
+      }
+      
+    .indexContent{
+        width: 1200px;
+        height: auto;
+        margin: auto;
+    }
+    .category ul{
+        width: 100%;
+        height: 71px;
+        line-height: 71px;
+        border-bottom: 1px solid #e5e5e5;
+    }
+    .name{
+        font-size: 16px;
+        color: #222;
+        margin-right: 18px;
+    }
+    .name i{
+        width: 3px;
+        height: 9px;
+        background: #ffb552;
+        margin-right: 7px;
+        display: inline-block;
+        
+    }
+    .type{
+        display: inline;
+        padding: 9px 12px;
+        border-radius: 5px;
+        margin-right: 18px;
+        font-size: 14px;
+        color: #616161;
+    }
+    .choice{
+        background: #00B285;
+        color: #fff;
+    }
+    .choose{
+        color: #00c896;
+    }
+    
+    .sync_math,.cube_math{
+        padding: 20px 0;
+    }
+    .sync_none{
+        text-align: center;
+    }
+    .cube_none{
+        text-align: center;
+    }
+    .cubeMathCont{
+        width: 100%;
+        height: auto;
+        background: url(../assets/indexban-3_02.png) no-repeat;
+        .cube_math{
+            width: 1200px;
+            margin: auto;
+        }
+    }
+    .title{
+        width: 100%;
+        height: 69px;
+        
+        .tit{
+            font-size: 30px;
+            color: #222;
+            line-height: 69px;
+        }
+        .seemore{
+            font-size: 14px;
+            color: #706f6f;
+            line-height: 69px;
+            i{
+                font-size: 19px;
+                color: #a2a2a2;
+                display: inline-block;
+            }
+        }
+        .cube_tits{
+            font-size: 16px;
+            color: #c3c3c3;
+            padding-top: 30px;
+            span{
+                color: #666;
+            }
+            li{
+                padding: 0 19px;
+                display: inline-block;
+                
+            }
+            .cubeNav{
+                color: #00B285;
+            }
+            
+        }
+    }
+    .sync_contents{
+        width: 100%;
+        overflow: hidden;
+        .eachCourse{
+            width: 285px;
+            height: auto;
+//          height: 337px;
+            position: relative;
+            margin-bottom: 20px;
+            margin-right: 20px;
+            float: left;
+            img{
+                width: 100%;
+                height: 170px;
+            }
+            .messages{
+                width: 100%;
+                height: 167px;
+                border: 1px solid #e8e8e8;
+                overflow: hidden;
+                border-top: none;
+                padding: 10px;
+                box-sizing: border-box;
+                .courseName{
+                    line-height: 40px;
+                    font-size: 16px;
+                    color: #333;
+                    padding-left: 5px;
+                }
+                .price{
+                    padding-left: 5px;
+                    font-size: 23px;
+                    color: #f13232;
+                    i{
+                        font-size: 14px;
+                        color: #888;
+                        padding-left: 10px;
+                    }
+                }
+                button{
+                    width: 100%;
+                    height: 44px;
+                    line-height: 44px;
+                    background: #00c896;
+                    border-radius: 5px;
+                    font-size: 16px;
+                    color: #fff;
+                    margin: 14px 0 6px 0;
+                }
+                .nums{
+                    text-align: right;
+                    font-size: 13px;
+                    color: #797979;
+                    span{
+                        color: #ffb552;
+                    }
+                }
+                .tips{
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    padding: 0 10px;
+                    line-height: 20px;
+                    font-size: 14px;
+                    color: #fff;
+                    background: #ff9d1a;
+                    border-radius: 10px;
+                }
+            }
+        }
+        .eachCourse:nth-child(4n){
+            margin-right: 0;
+        }
+    }
+    //魔方数学
+    .oneCourse{
+        width: 379px;
+        height: 321px;
+        margin-right: 31px;
+        border: 1px solid #e8e8e8;
+        box-sizing: border-box;
+        padding: 23px 20px;
+        margin-right: 32px;
+        background: #fff;
+        .cTit{
+            width: 100%;
+            overflow: hidden;
+            span{
+                line-height: 30px;
+                font-size: 16px;
+                color: #666;
+            }
+            b{
+                width: 30px;
+                height:30px;
+                background: #00B285;
+                border-radius: 50%;
+                color: #fff;
+                font-size: 14px;
+                line-height: 30px;
+                text-align: center;
+            }
+        }
+        .teachers{
+            width: 100%;
+            margin: 20px 0;
+            overflow: hidden;
+            span{
+                width: 75px;
+                margin-right: 13px;
+                float: left;
+                img{
+                    width: 100%;
+                    height: 75px;
+                    border-radius: 10px;
+                }
+                b{
+                    width: 100%;
+                    line-height: 27px;
+                    font-size: 14px;
+                    color: #333;
+                    text-align: center;
+                    display: block;
+                }
+                i{
+                    width: 100%;
+                    font-size: 14px;
+                    color: #949494;
+                    text-align: center;
+                    display: block;
+                }
+            }
+            span:nth-child(4n){
+                margin-right: 0;
+            }
+        }
+        .time{
+            width: 100%;
+            
+            span{
+                width: 100%;
+                line-height: 21px;
+                font-size: 13px;
+                color: #8a8a8a;
+                i{
+                    color: #ffb95c;
+                }
+                b{
+                    width: 70%;
+                    height: 1px;
+                    background: #e8e8e8;
+                    display: inline-block;
+                }
+            }
+            p{
+                line-height: 31px;
+                font-size: 14px;
+                color: #797979;
+            }
+        }
+        .cBot{
+            width: 100%;
+            line-height: 39px;
+            .price{
+                font-size: 24px;
+                color: #f13232;
+            }
+            b{
+                line-height: 23px;
+                color: #fff;
+                font-size: 14px;
+                padding: 0 10px;
+                background: #ffb95c;
+                margin-top: 11px;
+                border-radius: 5px;
+            }
+        }
+    }
+    .oneCourse:nth-child(3n){
+        margin-right: 0;
+    }
